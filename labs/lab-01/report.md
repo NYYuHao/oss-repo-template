@@ -1,1 +1,33 @@
 # Lab 01 Report - Introduction to Open Source Software
+
+# Tree Output
+![Tree output](https://media.discordapp.net/attachments/221060219243855872/804777656112906260/unknown.png)
+
+# Regex
+Problem 1
+
+![Problem 1](https://media.discordapp.net/attachments/221060219243855872/804780703740985384/unknown.png)
+
+Problem 2
+
+![Problem 2](https://media.discordapp.net/attachments/221060219243855872/804781405074489364/unknown.png)
+
+Problem 3
+
+![Problem 3](https://media.discordapp.net/attachments/221060219243855872/804782188297584700/unknown.png)
+
+Problem 4
+
+![Problem 4](https://media.discordapp.net/attachments/221060219243855872/804782951660257280/unknown.png)
+
+Problem 5
+
+![Problem 5](https://media.discordapp.net/attachments/221060219243855872/804784099193257994/unknown.png)
+
+Problem 6
+
+![Problem 6](https://media.discordapp.net/attachments/221060219243855872/804784921658785792/unknown.png)
+
+Problem 7
+
+![Problem 7](https://media.discordapp.net/attachments/221060219243855872/804786093047152640/unknown.png)
