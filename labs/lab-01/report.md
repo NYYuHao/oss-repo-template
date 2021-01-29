@@ -47,3 +47,8 @@ Crossword 3
 Crossword 4
 
 ![Crossword 4](https://media.discordapp.net/attachments/221060219243855872/804789322607624292/unknown.png)
+
+# Blockly Maze Puzzle
+![Maze Solution](https://media.discordapp.net/attachments/221060219243855872/804792573788553307/unknown.png)
+
+Move forward on every step. Turn left if possible and only turn right if left and forward are impossible. If you hit a wall turn around fully.
