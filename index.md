@@ -1,8 +1,14 @@
 # Open Source Software - Summer 2019
-## (( Your Name Here ))
+## Nicholas Yao
 
 ## Bio
-(( Put a little bit about yourself here! Also include a photo. ))
+Email: yaon@rpi.edu
+
+GitHub: NYYuHao
+
+Mattermost: yaon
+
+
 
 ## Lab Reports
 [Lab 1](labs/lab-01/report.md)
