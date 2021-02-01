@@ -1,11 +1,15 @@
 # Lab 01 Report - Introduction to Open Source Software
 
-# Tree Output
+# #0 Discord (yaon#9375)
+![Message in General](https://media.discordapp.net/attachments/221060219243855872/805591579829075978/unknown.png)
+
+# #2 Readings
+
+# #3 Linux (Tree)
 ![Tree output](https://media.discordapp.net/attachments/221060219243855872/804777656112906260/unknown.png)
-//////////////
-// FIX TREE //
-//////////////
-# Regex
+![Tree manual](https://media.discordapp.net/attachments/221060219243855872/805590710970613770/unknown.png)
+
+# #4 Regex
 Problem 1
 
 ![Problem 1](https://media.discordapp.net/attachments/221060219243855872/804780703740985384/unknown.png)
@@ -50,7 +54,9 @@ Crossword 4
 
 ![Crossword 4](https://media.discordapp.net/attachments/221060219243855872/804789322607624292/unknown.png)
 
-# Blockly Maze Puzzle
+# #5 Blockly Maze Puzzle
 ![Maze Solution](https://media.discordapp.net/attachments/221060219243855872/804792573788553307/unknown.png)
 
 Move forward on every step. Turn left if possible and only turn right if left and forward are impossible. If you hit a wall turn around fully.
+
+# #6 Reflection
