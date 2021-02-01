@@ -12,6 +12,9 @@ Suggestions:
 1. Provide specific examples when answering - From personal experience, reading through example snippets of code have helped me learn how to apply the answers to my personal problem. It's especially helpful when the code snippet is well commented.
 2. Provide a resource to learn more from - I've personally found a lot of very helpful information in youtube videos or written guides pointed out by people answering questions. Showing people how you learned to solve the problem can help bring them down the same path.
 
+#### Free Culture
+Chapter 3 exemplifies that well intentioned developers can be relentlessly targetted by huge companies. Jesse had no intention of listing music files on the search engine but was labelled as a pirate anyways. The American legal system unfortunately doesn't support those people like Jesse, so it is really easy to get put in situations that are unwinnable. Companies might declare morality as rationale for pursuing lawsuits despite taking life savings from students. Jesse's story is a cautionary tale that shows that it's sometimes necessary to be incredibly careful about what programs we make and what systems we build. This is particularly important when projects reach the scale of Jesse's search engine (>1 million files) and potentially put profit at risk for certain groups. Fortunately for Jesse, the community recognized how evil RIAA acted and was able to raise the money he lost back ([Wikipedia](https://en.wikipedia.org/wiki/Phynd)). Certain protections need to be legally defined to prevent cases like Jesse's in the future.
+
 # #3 Linux (Tree)
 ![Tree output](https://media.discordapp.net/attachments/221060219243855872/804777656112906260/unknown.png)
 ![Tree manual](https://media.discordapp.net/attachments/221060219243855872/805590710970613770/unknown.png)
