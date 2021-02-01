@@ -4,6 +4,13 @@
 ![Message in General](https://media.discordapp.net/attachments/221060219243855872/805591579829075978/unknown.png)
 
 # #2 Readings
+#### [Open Source Definition](https://opensource.org/osd)
+It is necessary to have a full-fledged definition of the term "open-source" so that its use implies the same meaning throughout. Many of the criterion provided encourage accessibility (free redistribution, no discrimination, etc.) so anyone can access and edit source code without limitation. This definition embeds accessibility and free use into the meaning of the term.
+
+#### [Smart Questions - How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html)
+Suggestions:
+1. Provide specific examples when answering - From personal experience, reading through example snippets of code have helped me learn how to apply the answers to my personal problem. It's especially helpful when the code snippet is well commented.
+2. Provide a resource to learn more from - I've personally found a lot of very helpful information in youtube videos or written guides pointed out by people answering questions. Showing people how you learned to solve the problem can help bring them down the same path.
 
 # #3 Linux (Tree)
 ![Tree output](https://media.discordapp.net/attachments/221060219243855872/804777656112906260/unknown.png)
