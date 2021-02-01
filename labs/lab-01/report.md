@@ -76,6 +76,6 @@ Some interesting open source projects:
 * [Shotcut](https://github.com/mltframework/shotcut) - Video editor
 * [Spreadsheet](https://github.com/audreyt/500lines/tree/master/spreadsheet) - Online spreadsheet editor
 
-There are tons of different open source programs I use on a daily basis (Linux, Firefox, some of the above projects), many of which are certainly worthy of evaluation especially given their scale (or their smallness, like the 99line spreadsheet program).
+There are tons of different open source programs I use on a daily basis (Linux, Firefox, some of the above projects), many of which are certainly worthy of evaluation especially given their scale (or their smallness, like the 99 line spreadsheet program).
 The first problem that comes to mind is real-life task management. I often leave really disorganized notes to keep track of assignments or work I need to do, and they tend to be scattered throughout my desktop or phone without any real centralization. The calendar and task apps I do use tend to have weird quirks or end up taking a while to use, so it would be great to have something fully customizable built for this purpose.
 Priority would probably go to getting a list of tasks working and then maybe expand to calendars and centralization across devices.
