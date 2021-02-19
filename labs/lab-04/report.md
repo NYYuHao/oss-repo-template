@@ -30,4 +30,4 @@ The paper claims that the development team for the Web beat out Gopher because G
 
 # Linux Licensing
 
-Linux is licensed with GPLv2, which is a copyleft license. Linux distributions must also be under GPLv2 which is good since it guarantees that all linux users have access to the distribution's code
+Linux is licensed with GPLv2, which is a copyleft license. Linux is a highly redistributed program which comes in many different distributions. One of the reasons version 2 is specifically used is because [Linus Torvalds dislikes v3 and won't use it](https://www.youtube.com/watch?v=PaKIZ7gJlRU), meaning the whole kernel can't be released under v3. 
