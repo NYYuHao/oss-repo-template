@@ -31,3 +31,16 @@ The paper claims that the development team for the Web beat out Gopher because G
 # Linux Licensing
 
 Linux is licensed with GPLv2, which is a copyleft license. This implies that the Linux kernel is freely distributable and modifiable, but all derivations must also use the license. One of the major reasons Linux Torvalds decided to use the GPL license is because he wanted a free kernel (as in, one that does not cost money) and considered this before freedom [(DataCenter)](https://www.datacenterknowledge.com/archives/2016/08/23/linus-torvalds-early-linux-history-gpl-license-money). His main priority stems in availability, which the GPL assures. Linux is a highly redistributed program which comes in many different distributions. Because Linux has a GPL license, the kernel source code is open and will be open when modified [(Allison Randal)](http://radar.oreilly.com/2007/04/gplv3-linux-and-gplv2-compatib.html#:~:text=Most%20Linux%20distributions%20will%20continue,at%20its%20core%20as%20GPLv3). This is what allows all the redistributions to be possible, with some distributions building off of others. One of the reasons version 2 is specifically used is because [Linus Torvalds dislikes v3 and won't use it](https://www.youtube.com/watch?v=PaKIZ7gJlRU), meaning the whole kernel can't be released under v3. This is an often disputed topic as v2 can be seen as outdated.
+
+# Open Source Business Model
+
+https://github.com/MackQian/Lab4Business
+
+# RCOS Repositories
+| Repository | License Present | License |
+| ---------- | --------------- | ------- |
+| https://github.com/rpi-alpaca/alpaca | Yes | MIT License |
+| https://github.com/bram-hub/aris | Yes | GPL-3.0 License |
+| https://github.com/carolynann/rcos-campuswatch | Yes | MIT License |
+| https://github.com/natsr4/exalendar | Yes | BSD-2-Clause License |
+| https://github.com/wtg/shuttletracker | Yes | AGPL-3.0 License |
