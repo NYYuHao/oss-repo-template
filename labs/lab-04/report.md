@@ -20,7 +20,11 @@ The four freedoms required for a program to be free are:
 2. The freedom to redistribute copies
 3. The freedom to distribute copies of modified versions to others
 
+#### Why is it important to choose a license?
+
 Licenses are important for open source software since they provide a legal declaration that the program is freely usable, modifiable, and sharable. There are several licenses that are approved by OSI, and have different terms and conditions that may apply more to some projects than others [(OSI)](https://opensource.org/licenses). The ability to choose the license lets developers legally define how their programs can be used in various ways depending on the project.
+
+#### Why shouldn't you use projects without a license?
 
 Conversely, projects that do not have licenses should not be used. Without an OSI approved license, software should not be labeled "Open Source" [(Patrick Masson, Slide 19)](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/04.Licensing/Licensing-S2021-RPI-PatrickMasson.pdf). By default, a creative work is under exclusive copyright by default, which suggests that nobody can copy, distribute or modify the work even if the code is openly viewable [(Choose A License)](https://choosealicense.com/no-permission/). If you use a project without a license, you risk putting yourself in legal trouble as a result.
 
