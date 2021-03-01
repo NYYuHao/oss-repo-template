@@ -525,19 +525,26 @@ endif()
 #### Makefile
 ```make
 all: dynamic_block static_block
+# clean to remove all related files
 clean: 
 	rm dynamic_block static_block libblock.so libblock.a block.o program.o
 
+# Create dynamic_block executable by compiling with shared library, which
+# requires rpath to be correctly set so the program knows where the shared
+# library is
 dynamic_block: libblock.so program.o
 	cc program.o libblock.so -o dynamic_block -Wl,-rpath=./
 libblock.so: block.o
 	cc -shared -o libblock.so block.o
 
+# Create static_block executable by compiling with the static, archived library
 static_block: libblock.a program.o
 	cc program.o libblock.a -o static_block
 libblock.a: block.o
 	ar qc libblock.a block.o
 
+# Compile code once with PIC (position independent code) for dynamic linking
+# Also have implicit dependencies (header file)
 block.o: source/block.c headers/block.h
 	cc -fPIC -c source/block.c -o block.o
 program.o: program.c headers/block.h
@@ -549,18 +556,22 @@ program.o: program.c headers/block.h
 cmake_minimum_required(VERSION 3.10)
 project(Lab5CMake)
 
+# Compile dynamic_block with program.c
 add_executable(dynamic_block program.c)
 target_include_directories(dynamic_block PUBLIC
 	"${PROJECT_BINARY_DIR}"
 	"${PROJECT_SOURCE_DIR}/headers")
+# Create the shared library and link it to the executable
 add_library(libdynamicblock SHARED source/block.c)
 target_link_libraries(dynamic_block PUBLIC
 	libdynamicblock)
 
+# Compile static_block with program.c
 add_executable(static_block program.c)
 target_include_directories(dynamic_block PUBLIC
 	"${PROJECT_BINARY_DIR}"
 	"${PROJECT_SOURCE_DIR}/headers")
+# Create the static library and link it to the executable
 add_library(libstaticblock STATIC source/block.c)
 target_link_libraries(static_block PUBLIC
 	libstaticblock)
