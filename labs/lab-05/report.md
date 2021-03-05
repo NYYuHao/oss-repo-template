@@ -568,7 +568,7 @@ target_link_libraries(dynamic_block PUBLIC
 
 # Compile static_block with program.c
 add_executable(static_block program.c)
-target_include_directories(dynamic_block PUBLIC
+target_include_directories(static_block PUBLIC
 	"${PROJECT_BINARY_DIR}"
 	"${PROJECT_SOURCE_DIR}/headers")
 # Create the static library and link it to the executable
