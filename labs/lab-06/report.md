@@ -290,7 +290,7 @@ make
 take
 ```
 
-### Length 5 Words Permutations
+### Length 5 Words Unordered
 
 Code:
 ```python
