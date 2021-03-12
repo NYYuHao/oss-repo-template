@@ -388,7 +388,8 @@ if __name__ == '__main__':
             for n in sp:
                 print(n)
         except nx.NetworkXNoPath:
-            print("None")``
+            print("None")
+```
 
 python3 plot\_words.py results:
 ```
