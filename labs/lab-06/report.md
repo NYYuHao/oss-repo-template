@@ -4,6 +4,34 @@
 
 Code: 
 ```python
+"""
+=====
+Words
+=====
+Words/Ladder Graph
+------------------
+Generate  an undirected graph over the 5757 5-letter words in the
+datafile `words_dat.txt.gz`.  Two words are connected by an edge
+if they differ in one letter, resulting in 14,135 edges. This example
+is described in Section 1.1 in Knuth's book (see [1]_ and [2]_).
+References
+----------
+.. [1] Donald E. Knuth,
+   "The Stanford GraphBase: A Platform for Combinatorial Computing",
+   ACM Press, New York, 1993.
+.. [2] http://www-cs-faculty.stanford.edu/~knuth/sgb.html
+"""
+# Authors: Aric Hagberg (hagberg@lanl.gov),
+#          Brendt Wohlberg,
+#          hughdbrown@yahoo.com
+
+#    Copyright (C) 2004-2019 by
+#    Aric Hagberg <hagberg@lanl.gov>
+#    Dan Schult <dschult@colgate.edu>
+#    Pieter Swart <swart@lanl.gov>
+#    All rights reserved.
+#    BSD license.
+
 import gzip
 from string import ascii_lowercase as lowercase
 
@@ -142,6 +170,34 @@ None
 
 Code:
 ```python
+"""
+=====
+Words
+=====
+Words/Ladder Graph
+------------------
+Generate  an undirected graph over the 5757 5-letter words in the
+datafile `words_dat.txt.gz`.  Two words are connected by an edge
+if they differ in one letter, resulting in 14,135 edges. This example
+is described in Section 1.1 in Knuth's book (see [1]_ and [2]_).
+References
+----------
+.. [1] Donald E. Knuth,
+   "The Stanford GraphBase: A Platform for Combinatorial Computing",
+   ACM Press, New York, 1993.
+.. [2] http://www-cs-faculty.stanford.edu/~knuth/sgb.html
+"""
+# Authors: Aric Hagberg (hagberg@lanl.gov),
+#          Brendt Wohlberg,
+#          hughdbrown@yahoo.com
+
+#    Copyright (C) 2004-2019 by
+#    Aric Hagberg <hagberg@lanl.gov>
+#    Dan Schult <dschult@colgate.edu>
+#    Pieter Swart <swart@lanl.gov>
+#    All rights reserved.
+#    BSD license.
+
 import gzip
 from string import ascii_lowercase as lowercase
 
@@ -238,6 +294,34 @@ take
 
 Code:
 ```python
+"""
+=====
+Words
+=====
+Words/Ladder Graph
+------------------
+Generate  an undirected graph over the 5757 5-letter words in the
+datafile `words_dat.txt.gz`.  Two words are connected by an edge
+if they differ in one letter, resulting in 14,135 edges. This example
+is described in Section 1.1 in Knuth's book (see [1]_ and [2]_).
+References
+----------
+.. [1] Donald E. Knuth,
+   "The Stanford GraphBase: A Platform for Combinatorial Computing",
+   ACM Press, New York, 1993.
+.. [2] http://www-cs-faculty.stanford.edu/~knuth/sgb.html
+"""
+# Authors: Aric Hagberg (hagberg@lanl.gov),
+#          Brendt Wohlberg,
+#          hughdbrown@yahoo.com
+
+#    Copyright (C) 2004-2019 by
+#    Aric Hagberg <hagberg@lanl.gov>
+#    Dan Schult <dschult@colgate.edu>
+#    Pieter Swart <swart@lanl.gov>
+#    All rights reserved.
+#    BSD license.
+
 import gzip
 from string import ascii_lowercase as lowercase
 
@@ -286,7 +370,8 @@ def words_graph():
 if __name__ == '__main__':
     G = words_graph()
     print("Loaded words_dat.txt containing 5757 five-letter English words.")
-    print("Two words are connected if any of their permutations differ in one letter.")
+    print("""Two words are connected if any of they differ in one letter,
+            disregarding order.""")
     print("Graph has %d nodes with %d edges"
           % (nx.number_of_nodes(G), nx.number_of_edges(G)))
     print("%d connected components" % nx.number_connected_components(G))
@@ -303,13 +388,13 @@ if __name__ == '__main__':
             for n in sp:
                 print(n)
         except nx.NetworkXNoPath:
-            print("None")
-```
+            print("None")``
 
 python3 plot\_words.py results:
 ```
 Loaded words_dat.txt containing 5757 five-letter English words.
-Two words are connected if any of their permutations differ in one letter.
+Two words are connected if any of they differ in one letter,
+            disregarding order.
 Graph has 5757 nodes with 112278 edges
 16 connected components
 Shortest path between chaos and order is
