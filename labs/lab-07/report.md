@@ -19,13 +19,17 @@ Linux-c++.
 # Failing/Passing Tests
 
 Failed Test:
+
 ![ctest-fail](./images/cmake-test-failed-terminal.png)
 
 The error message when run with the -VV flag provides a hint as to what the issue is:
+
 ![ctest-error](./images/cmake-test-failed-error-message.png)
 
 The error can be fixed by changing the copyright to say 2021 instead of 2020:
+
 ![ctest-fix](./images/cmake-test-fix.png)
 
 The tests pass when this is changed:
+
 ![ctest-pass](./images/cmake-test-passed.png)
