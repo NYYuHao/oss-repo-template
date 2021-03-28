@@ -36,3 +36,13 @@ The error can be fixed by changing the copyright to say 2021 instead of 2020:
 The tests pass when this is changed:
 
 ![ctest-pass](./images/cmake-test-passed.png)
+
+# CI/CD
+
+Pull request:
+
+![pull-request](./images/git-pull-request.png)
+
+Successful push execution:
+
+![push-execution](.images/git-successful-run.png)
