@@ -1,4 +1,6 @@
 # Getting Started
+Successful build messages:
+
 ![cmake-gui](./images/cmake-gui-success.png)
 ![cmake-build](./images/cmake-build-success.png)
 
