@@ -45,4 +45,4 @@ Pull request:
 
 Successful push execution:
 
-![push-execution](.images/git-successful-run.png)
+![push-execution](./images/git-successful-run.png)
