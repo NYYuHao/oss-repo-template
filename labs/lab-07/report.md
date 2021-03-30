@@ -46,3 +46,13 @@ Pull request:
 Successful push execution:
 
 ![push-execution](./images/git-successful-run.png)
+
+
+
+I had accidentally started from Step 5 code instead of using the completed code found in Step 6, so I made another branch with Step 6 code and did a pull request again:
+
+![git-step6](./images/ctest-step6-success.png)
+
+Successful push execution:
+
+![step6-push](./images/workflow-step6-success.png)
