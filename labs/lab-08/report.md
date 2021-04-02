@@ -62,3 +62,55 @@ Successful Dockerfile build using `docker build -t helloworld .`
 Hello world at `localhost:5000` after running with `docker run -p 5000:5000 helloworld`
 
 ![Hello world](./images/hello-rcos.png)
+
+# Example 04
+
+Successfully building message-app using `docker build -t message-app .` and
+list of images (some remaining from example 03):
+
+![Images After Build](./images/images-after-build.png)
+
+When attempting to run, there is an error regarding mongodb
+
+![Error](./images/cannot-connect-mongodb.png)
+
+docker-compose.yml:
+
+```
+version: '3'
+services:
+  mongo:
+    image: mongo:4.0.7
+    volumes:
+      - mongo-data:/data/db
+    expose:
+      - "27017"
+  app:
+    build: .
+    ports:
+            - "1337:1337"
+    links:
+      - mongo
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URL=mongodb://mongo/messageApp
+volumes:
+  mongo-data:
+```
+
+Successful messageapp build:
+
+![Successful build](./images/successful-messageapp-build.png)
+
+Successful messageup up:
+
+![Successful up](./images/successful-up.png)
+
+Successful curl messages (prior to update and delete)
+
+![Successful curl](./images/successful-curl.png)
+
+Successful curl after update on hola and delete on hello
+
+![After update / Delete](./images/curl-after.png)
