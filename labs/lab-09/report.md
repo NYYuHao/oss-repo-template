@@ -63,3 +63,36 @@ if __name__ == '__main__':
 pprint output:
 
 ![pprint output](./images/mongo-pprint.png)
+
+# Random Word Requester
+
+checkpoint5.py:
+
+```python
+from pymongo import MongoClient
+import datetime
+client = MongoClient()
+
+
+def random_word_requester():
+    '''
+    This function should return a random word and its definition and also
+    log in the MongoDB database the timestamp that it was accessed.
+    '''
+    db = client.mongo_db_lab
+    # Grab a random word using aggregate
+    word = db.definitions.aggregate([{"$sample": {"size": 1}}]).next()
+
+    db.definitions.update_one(
+            {"_id": word['_id']},
+            {"$push": {"dates": datetime.datetime.isoformat(datetime.datetime.utcnow())}})
+    
+    return word
+
+if __name__ == '__main__':
+    print(random_word_requester())
+```
+
+Find after running until a duplicate:
+
+![Find User](./images/mongo-find-user.png)
