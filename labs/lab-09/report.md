@@ -1,6 +1,6 @@
 # MongoDB Licensing
 
-TODO: Write this and link here
+[Blog Post](https://rcos.io/projects/natsr4/exalendar/blog)
 
 # Installing MongoDB
 
