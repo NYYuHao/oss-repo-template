@@ -54,7 +54,7 @@ Jeans: [[6.4127316e-04 4.7062142e-03 2.3958189e-02 8.9736706e-05 9.6994197e-01
 
 Original Image from [here](https://www.shutterstock.com/image-illustration/mens-down-coat-3dimage-3d-render-1740459164):
 
-![Coat Original](./images/coat.jpg)
+![Coat Original](./images/noisy-coat.jpg)
 
 Greyscale:
 
