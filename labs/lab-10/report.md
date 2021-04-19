@@ -72,4 +72,6 @@ In total, the model predicted two of the three images correctly (The t-shirt
 and the coat). This is really interesting, since I wanted to try and see how
 the model would perform on a noisy image (the coat, with watermarks) and
 just assumed the other images were simple enough for the model to predict.
-The model ended up guessing the coat correctly and not the jeans.
+The model ended up guessing the coat correctly and not the jeans. In fact,
+it was more confident that the jeans were a coat than the actual coat, and
+barely confident that the jeans were actually trousers.
